@@ -10,6 +10,11 @@
 <br/>
 <blockquote>&lt;div widget="widgets/MySuperWidget.js"&gt;&lt;/div&gt;</blockquote>
 
+<h3>Added some unit tests</h3>
+Testing library that I used is Jest. Have added 2 test cases for init and destroy
+<br/>
+To run the test, simply run <blockquote>yarn run test</blockquote> or <blockquote>npm test</blockquote>
+
 <h1>Notes</h1>
 
 <h3>I don't have done and fail buttons, and done and fail are states of the library or it's widget, so if I understood the requirements of the library correctly, a button cannot trigger those events</h3>
