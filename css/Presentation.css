@@ -1,0 +1,50 @@
+body {
+  width: 20vw;
+  margin: 0 auto;
+}
+[widget] {
+  margin: 20px 0;
+}
+.widgetContainer {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #e3f2fd;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.textBlock {
+  padding: 5px 0;
+}
+
+.widgetButtonBlock button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #9390ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.methodsTrigger {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#initMethod {
+  background-color: green;
+  margin: 10px 0;
+}
+
+#destroyMethod {
+  background-color: red;
+  margin: 10px 0;
+}

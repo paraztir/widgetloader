@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Widget Loader</title>
+  <link rel="stylesheet" href="css/Presentation.css">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <div id="root">
+    <div widget="widgets/a">
+      <div widget="widgets/b"></div>
+      <div widget="widgets/d"></div>
+    </div>
+    <div></div>
+    <div widget="widgets/c"></div>
+  </div>
+  <div id="root2">
+    <div widget="widgets/a">
+      <div widget="widgets/b"></div>
+      <div widget="widgets/d"></div>
+    </div>
+    <div></div>
+    <div widget="widgets/c"></div>
+  </div>
+  <div>
+    <button id="initMethod" class="methodsTrigger">Init</button>
+    <button id="destroyMethod" class="methodsTrigger">Destroy Widgets</button>
+  </div>
+  <script type="module" src="js/LibraryX.js"></script>
+  <script type="module" src="js/user/Presentation.js"></script>
+
+</body>
+
+</html>
